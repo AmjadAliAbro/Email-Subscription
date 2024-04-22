@@ -41,7 +41,7 @@ form input {
     outline: 0;
     padding: 10px 20px;
     height: 70px;
-    width: 400px;
+    width: 100%;
     font-size: 16px;
 }
 
@@ -50,7 +50,8 @@ form button {
     border: none;
     outline: none;
     height: 70px;
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     cursor: pointer;
 }
 
